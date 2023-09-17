@@ -6,7 +6,7 @@
 }
 
 body{
-    background: black;
+    background: #B02D10;
     color: white;
 }
 
@@ -26,6 +26,12 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
     }
+nav h1{
+    font-size: 50px;
+}
+nav h1 span{
+    color:#341008;
+}
 nav ul li {
     display: inline-block;
     list-style: none;
@@ -41,7 +47,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff005f;
+    background: #341008;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -59,5 +65,9 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 .header-text h1 span{
-color: #ff005f;
+color: #341008;
 }
+
+/*About ..... */
+
+
